@@ -25,6 +25,7 @@ jobs:
         
       - name: run test and build angular app
         run: |
+          ng test --watch=false
           ng build
           echo "run test and build angular app"
 
