@@ -67,4 +67,4 @@ jobs:
 
     - name: Build application
       run: ng build --configuration production
-      echo "run test and build angular app"
+        echo "run test and build angular app"
